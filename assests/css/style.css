@@ -5,15 +5,49 @@ body{
     margin: 0;
 }
 
-.thumbnail{
-    width: 200px;
-    height: 200px;
+#navheader{
+    padding-left: 0;
+}
+
+.navbar-header{
+    background-color: #4aaaa5;
+    font-size: 40px;
+    color: #ffffff;
+    width: 250px;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    line-height: 45px;
+}
+
+#aboutme{
+    background-color: #ffffff;
+    padding: 20px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+
+#profpic{
+    width: 220px;
+    height: 275px;
+    float: left;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 20px;
+    color: #666666;
+    padding-top: 10px;
 }
 
 .col-md-3{
     background-color: #ffffff;
     text-align: center;
     padding: 20px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
 }
 
 h3{
@@ -49,6 +83,9 @@ h3{
     background-color: #ffffff;
     padding-bottom: 20px;
     padding-top: 20px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
 }
 
 .form-group{
