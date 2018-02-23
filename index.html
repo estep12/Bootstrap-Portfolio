@@ -7,17 +7,19 @@
     <title>Bootstrap-Portfolio</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./assests/css/style.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+
 </head>
 
 <body>
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
                     <div class="col-md-4">
                     <h1>Erik Stephenson</h1>
@@ -30,7 +32,7 @@
                     </ul>
             </div>
         </nav>
-        
+
     <div class="container">
         <div class="col-md-8" id="aboutme">
                 <div class="page-header">
@@ -39,11 +41,11 @@
                     </h2>
                 </div>
                 <div class="row">
-                    <div clas="col-md-8">
-                        <img src="./assests/images/Profile picture.jpg" alt="Erik">
+                    <div clas="col-md-4">
+                        <img src="./assests/images/Profile picture.jpg" alt="Erik" class="thumbnail">
                     </div>
-                <div class="caption">
                     <div class="col-md-8">
+                        <div class="caption">
                         <p>Deserunt sunt laborum voluptate incididunt mollit ipsum sit ad esse duis consectetur sunt.</p>
                         <p>Laboris pariatur est voluptate nisi deserunt mollit mollit do ullamco.</p>
                     </div>
@@ -52,20 +54,21 @@
 
     </div>
             <div class="col-md-1"></div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        Basic panel example
-                    </div>
-                </div>
+            <div class="col-md-3">
+                        <h3> Connect With Me</h3>
+                                <ul class="links">
+                                    <li><a href="https://github.com/estep12"><img id="github" src="./assests/images/github.png"></a></li>
+                                    <li><a href="https://www.linkedin.com/in/erik-stephenson-524898102/"><img id="linkedin" src="./assests/images/linkedin.png"></a></li>
+                                    <li><a href="https://stackoverflow.com/users/9125142/estep16?tab=profile"><img id="stack" src="./assests/images/stackoverflow.png"></a></li>
+                                </ul>
             </div>    
             </div>
-        <div class="row">
-            
 
         </div>
-
-        </div>
-    </div>           
+    </div> 
+    
+    <footer  id="footer">
+            &#169; Copyright 2018 Erik Stephenson 
+    </footer>
 </body>
 </html>

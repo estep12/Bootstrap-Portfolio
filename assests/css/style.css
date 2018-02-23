@@ -1,0 +1,77 @@
+body{
+    background-image: url(../images/dust_scratches.png);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.thumbnail{
+    width: 200px;
+    height: 200px;
+}
+
+.col-md-3{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    text-decoration: underline;
+    text-decoration-color: #666666;
+    color: #4aaaa5;
+    padding-bottom: 10px;
+}
+
+.links{
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 0;
+    
+}
+
+#github, #stack {
+    height: 65px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 0;
+}
+
+#linkedin {
+    height: 65px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 0;  
+}
+
+#contact{
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.form-group{
+    padding-top: 10px;
+}
+
+#header{
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: solid;
+    border-color: #666666;
+    padding: 10px;
+}
+
+#footer{
+    text-align: center;
+    background-color: #666666;
+    color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top: #4aaaa5;
+    border-top-style: solid;
+}
