@@ -33,6 +33,7 @@ body{
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
+    margin-bottom: 50px;
 }
 
 #profpic{
@@ -93,6 +94,7 @@ h3{
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
+    margin-bottom: 33px;
 }
 
 .form-group{
