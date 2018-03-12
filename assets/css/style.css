@@ -133,7 +133,7 @@ h3{
 }
 
 
-#rps, #rutgers{
+#rps, #rutgers, #rpg{
     margin-right: 0;
     float: right;
 }
@@ -156,11 +156,12 @@ h3{
     background-color: #666666;
     color: #ffffff;
     padding: 20px;
-    position: fixed;
+    position: static;
     bottom: 0;
     right: 0;
     left: 0;
     border-top: #4aaaa5;
     border-top-style: solid;
+    z-index: 1;
     
 }
